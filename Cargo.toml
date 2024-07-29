@@ -1,5 +1,5 @@
 [package]
-name = "rust_bundler_cp"
+name = "rust-bundler-cp"
 version = "0.3.19"
 authors = ["Zhenbo Li <lizhenbo@yahoo.com>"]
 description = "Creates a single-source-file version of a Cargo package. This single file can be submitted for competitive programming then. Concentrating on codeforces.com now."
@@ -11,10 +11,6 @@ categories = ["command-line-utilities"]
 readme = "README.md"
 license = "MIT"
 edition = "2021"
-
-[[bin]]
-name = "rust_bundler_cp"
-path = "src/main.rs"
 
 [dependencies]
 cargo_metadata = "0.18.1"
